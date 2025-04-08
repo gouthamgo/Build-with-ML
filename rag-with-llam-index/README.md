@@ -8,4 +8,4 @@ Generation - sends (question + context) to LLM
 
 ***
 
-## pip install llama-index openai python-dotenv tiktoken llama-index-readers-file pypdf
+pip install llama-index transformers torch sentence-transformers streamlit
