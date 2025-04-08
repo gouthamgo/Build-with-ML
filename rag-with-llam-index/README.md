@@ -8,4 +8,3 @@ Generation - sends (question + context) to LLM
 
 ***
 
-pip install llama-index transformers torch sentence-transformers streamlit
