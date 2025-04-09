@@ -1,0 +1,48 @@
+[
+    {
+      "id": "1",
+      "name": "Red Dress",
+      "description": "Elegant red dress for formal occasions.",
+      "color": "red",
+      "category": "dress",
+      "price": 100,
+      "imageUrl": "https://m.media-amazon.com/images/I/71u9tO7K9aL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Blue Jeans",
+      "description": "Classic blue jeans for everyday wear.",
+      "color": "blue",
+      "category": "jeans",
+      "price": 50,
+      "imageUrl": "https://www.levi.com/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/default/dw71b824ef/images/hi-res/0050101150-0001-1,1.jpg?sw=2000&sh=2000&sm=fit"
+    },
+    {
+      "id": "3",
+      "name": "Black T-Shirt",
+      "description": "Basic black t-shirt, a wardrobe staple.",
+      "color": "black",
+      "category": "top",
+      "price": 20,
+      "imageUrl": "https://lp2.hm.com/hmgoepprod?set=quality%5B70%5D%2Csource%5B%2F61%2F6d%2F616d498912f8e2b5912c255482b6b565778c1877.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_tshirtstanks%5D%2Ctype%5BLOOKBOOK%5D&hmver=1&call=url[file:/product/main]"
+    },
+    {
+      "id": "4",
+      "name": "Green Dress",
+      "description": "Flowy green dress for a casual day out.",
+      "color": "green",
+      "category": "dress",
+      "price": 80,
+      "imageUrl": "https://cdn.shopify.com/s/files/1/2258/7449/products/il_fullxfull.1513794031_c3k1.jpg?v=1571724716"
+    },
+    {
+      "id": "5",
+      "name": "Red Heels",
+      "description": "Stylish red heels to complete your look.",
+      "color": "red",
+      "category": "shoes",
+      "price": 120,
+      "imageUrl": "https://media.nastygal.com/i/nastygal/agg00127_red_xl/red-stiletto-heels"
+    }
+  ]
+  
