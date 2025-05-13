@@ -1,0 +1,47 @@
+/* src/App.css */
+.app-container {
+  max-width: 800px;
+  margin: var(--spacing-xl) auto;
+  padding: var(--spacing-md);
+  background-color: var(--light-color);
+  border-radius: var(--border-radius);
+  box-shadow: 0 0 10px var(--shadow-color);
+}
+
+.app-header {
+  font-size: var(--font-size-lg);
+  color: var(--dark-color);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  font-weight: 500;
+}
+
+.total-expenses {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-md);
+  background-color: #e9ecef; /* Slightly different background for emphasis */
+  border-radius: var(--border-radius);
+  text-align: right;
+}
+
+.no-entries {
+  text-align: center;
+  color: #6c757d; /* Muted color */
+  padding: var(--spacing-lg);
+  border: 1px dashed var(--border-color);
+  border-radius: var(--border-radius);
+  margin-top: var(--spacing-md);
+}
+
+/* Basic responsiveness for the container */
+@media (max-width: 600px) {
+  .app-container {
+    margin: var(--spacing-md) var(--spacing-sm);
+    padding: var(--spacing-sm);
+  }
+  .app-header {
+    font-size: 1.1rem; /* Slightly smaller on mobile */
+  }
+}

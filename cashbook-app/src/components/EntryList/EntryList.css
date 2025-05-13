@@ -1,0 +1,64 @@
+/* src/components/EntryList/EntryList.css */
+.entry-list-container {
+  margin-top: var(--spacing-lg);
+}
+
+.entry-list-container h2 {
+  margin-bottom: var(--spacing-md);
+  font-size: 1.2rem;
+  color: var(--dark-color);
+}
+
+.entry-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--background-color);
+  box-shadow: 0 2px 4px var(--shadow-color);
+  border-radius: var(--border-radius); /* Apply to table if it's the outer container */
+  overflow: hidden; /* Important for border-radius on table */
+}
+
+.entry-table th,
+.entry-table td {
+  padding: var(--spacing-sm) var(--spacing-md);
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.entry-table th {
+  background-color: #e9ecef; /* Light grey for header */
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.entry-table tr:last-child td {
+  border-bottom: none; /* Remove border from last row */
+}
+
+.entry-table tr:hover {
+  background-color: #f1f3f5; /* Slight hover effect */
+}
+
+.amount-column {
+  text-align: right;
+}
+
+.actions-column {
+  text-align: center;
+  width: 80px; /* Fixed width for action button */
+}
+
+/* Card view for smaller screens */
+.entry-cards-container {
+  display: none; /* Hidden by default */
+}
+
+@media (max-width: 768px) {
+  .entry-table {
+    display: none; /* Hide table on small screens */
+  }
+
+  .entry-cards-container {
+    display: block; /* Show cards on small screens */
+  }
+}

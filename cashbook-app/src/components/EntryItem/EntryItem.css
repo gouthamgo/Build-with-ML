@@ -1,0 +1,62 @@
+/* src/components/EntryItem/EntryItem.css */
+.entry-card {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
+  box-shadow: 0 1px 3px var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--spacing-sm);
+}
+
+.card-row:last-child {
+  margin-bottom: 0;
+}
+
+.card-label {
+  font-weight: 500;
+  color: #495057; /* Slightly muted label color */
+  margin-right: var(--spacing-sm);
+}
+
+.card-value {
+  text-align: right;
+}
+
+.card-purpose {
+  white-space: normal; /* Allow purpose to wrap */
+  word-break: break-word; /* Break long words */
+}
+
+.card-actions {
+  margin-top: var(--spacing-sm);
+  align-self: flex-end; /* Align delete button to the right */
+}
+
+.delete-button {
+  background-color: transparent;
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  font-size: var(--font-size-sm);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.delete-button:hover {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.delete-button svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}

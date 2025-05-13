@@ -1,0 +1,55 @@
+/* src/components/ConfirmationModal/ConfirmationModal.css */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it's on top */
+}
+
+.modal-content {
+  background-color: var(--background-color);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 15px var(--shadow-color);
+  width: 90%;
+  max-width: 400px; /* Max width for the modal */
+  text-align: center;
+}
+
+.modal-content p {
+  margin-bottom: var(--spacing-lg);
+  font-size: var(--font-size-base);
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-around; /* Or space-between/flex-end */
+}
+
+.modal-actions button {
+  padding: var(--spacing-sm) var(--spacing-lg);
+  min-width: 100px; /* Give buttons some width */
+}
+
+.modal-actions .confirm-button {
+  background-color: var(--danger-color);
+  color: white;
+}
+.modal-actions .confirm-button:hover {
+  background-color: var(--danger-hover-color);
+}
+
+.modal-actions .cancel-button {
+  background-color: #6c757d; /* A neutral grey */
+  color: white;
+  border-color: #6c757d;
+}
+.modal-actions .cancel-button:hover {
+  background-color: #5a6268;
+}
