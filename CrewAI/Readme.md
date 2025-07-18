@@ -46,13 +46,6 @@ Install via pip:
 pip install crewai
 ```
 
-Or clone the repo:
-
-```
-git clone https://github.com/your-username/crewai.git
-cd crewai
-pip install -r requirements.txt
-```
 
 ---
 
